@@ -23,6 +23,7 @@
 		if (!recaptchaToken.value) {
 			notyf.error('Please verify that you are not a robot.');
 			return;
+		}
 
 			isLoading.value=true;
 
